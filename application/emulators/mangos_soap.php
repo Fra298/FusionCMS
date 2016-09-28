@@ -129,6 +129,12 @@ class Mangos_soap implements Emulator
 			"intellect" => "intellect",
 			"spirit" => "spirit",
 			"armor" => "armor",
+			"resholy"=> "resHoly",
+			"resFire"=> "resFire",
+			"resNature"=> "resNature",
+			"resFrost"=> "resFrost",
+			"resShadow"=> "resShadow",
+			"resArcane"=> "resArcane",
 			"blockPct" => "blockPct",
 			"dodgePct" => "dodgePct",
 			"parryPct" => "parryPct",
@@ -137,7 +143,7 @@ class Mangos_soap implements Emulator
 			"spellCritPct" => "spellCritPct",
 			"attackPower" => "attackPower",
 			"spellPower" => "spellPower",
-			"resilience" => "resilience"
+//			"resilience" => "resilience"
 		),
 
 		"guild" => array(
@@ -152,10 +158,10 @@ class Mangos_soap implements Emulator
 		),
 
 		"gm_tickets" => array(
-			"ticketId" => "ticketId",
+			"ticketId" => "ticket_Id",
 			"guid" => "guid",
-			"message" => "message",
-			"createTime" => "createTime",
+			"message" => "ticket_text",		
+			"createTime" => "ticket_lastchange",
 		)
 	);
 
